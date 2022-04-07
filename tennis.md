@@ -53,6 +53,8 @@ My top players that I model after now are:
 
 However, now I just code, because there's less time to practice. That doesn't mean I'm stopping though.
 
+`# coding`
+
 ```
 gettingBetter = 0
 enjoyingTennis = True
