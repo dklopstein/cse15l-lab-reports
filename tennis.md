@@ -2,7 +2,7 @@
 ## My Tennis Journey:
 *An account of the thing I enjoy the most in life.*
 
-# 1. High School (2017-2019):
+## 1. High School (2017-2019):
 *There was no focus, just having fun.*
 
 ![Image](https://bloximages.newyork1.vip.townnews.com/bakersfield.com/content/tncms/assets/v3/editorial/2/0f/20f2dc72-ac7b-5a1e-9629-1d7dd4853850/5d057bfcc9860.image.jpg?resize=431%2C500)
@@ -18,7 +18,7 @@ I started playing tennis the summer before high school and have been playing eve
 
 ---
 
-# 2. Quarantine (2020-2021):
+## 2. Quarantine (2020-2021):
 *The grind began, I wanted to look good.*
 > "I have learnt to be even more patient." *Roger Federer*
 
@@ -39,7 +39,7 @@ I became obsessed with the thought of looking effortless as I played. My favorit
 
 ---
 
-# 3. Tracking Progress (2021-?):
+## 3. Tracking Progress (2021-?):
 *I started to post on YouTube*
 
 ![](https://i.imgur.com/oxiseae.png)
