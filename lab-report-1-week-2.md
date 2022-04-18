@@ -103,6 +103,8 @@ Here I used:
 
 to read the txt files in my home directory.
 
-3. Using the up-arrow on your keyboard you can recall previously used commands. Using the previous one, I can remove the last command and input a new one. This saves time because you don't need to re-type everything.
+3. Using the up-arrow on your keyboard you can recall previously used commands. Using the previous one, I can remove the last command and input a new one. This saves time because you don't need to re-type everything. I used:
+
+`ssh cs15lsp22<account-id>@ieng6.ucsd.edu "cat WhereAmI.java`
 
 ![](optimizing-3.png)
