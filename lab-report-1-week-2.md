@@ -6,7 +6,7 @@
 **[Use the Installation](https://code.visualstudio.com)**
 
 Your window should look like this upon first opening
-![](vscode.png)
+![](lab-report-1-week-2/vscode.png)
 
 ---
 
@@ -20,7 +20,7 @@ replace `<account-id>` with your course-specific id.
 4. Your window should look similar to this after logging in.
 
 
-![](ssh.png)
+![](lab-report-1-week-2/ssh.png)
 
 ---
 
@@ -38,7 +38,7 @@ For this example, I used:
 
 After creating that directory, if we `ls` you can see the new directory, "hello".
 
-![](mkdir.png)
+![](lab-report-1-week-2/mkdir.png)
 
 ---
 
@@ -52,7 +52,7 @@ to copy the file to your server account.
 2. You will be prompted to enter a password again.
 3. After entering your password, you will see the file name and the transfer rate until it reaches 100%.
 
-![](scp2.png)
+![](lab-report-1-week-2/scp2.png)
 
 *Note: I did not have to enter a password because I have my ssh key saved. This will be shown next.*
 
@@ -68,20 +68,20 @@ It should look something like this when done.
 
 *Ignore the overwriting part.*
 
-![](keygen.png)
+![](lab-report-1-week-2/keygen.png)
 
 4. Login using ssh and make a new directory called `.ssh` if it does not exist. Use `mkdir .ssh`.
 5. Logout and enter the following: 
 `scp /Users/\<username>/.ssh/id_rsa.pub cs15lsp22\<account-id>@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 6. Then re-enter your password.
 
-![](scp-keygen.png)
+![](lab-report-1-week-2/scp-keygen.png)
 
 Now anytime you login or try to `scp` directly from your local system, you will not have to enter your password.
 
 It should look something like this.
 
-![](ssh-keygen.png)
+![](lab-report-1-week-2/ssh-keygen.png)
 
 ---
 
@@ -91,11 +91,11 @@ It should look something like this.
 
 `ssh cs15lsp22<account-id>@ieng6.ucsd.edu "ls"`
 
-![](optimizing-1.png)
+![](lab-report-1-week-2/optimizing-1.png)
 
 2. Using semi-colons `;` enables one to run multiple commands at the same time.
 
-![](optimizing-2.png)
+![](lab-report-1-week-2/optimizing-2.png)
 
 Here I used:
 
@@ -107,4 +107,4 @@ to read the txt files in my home directory.
 
 `ssh cs15lsp22<account-id>@ieng6.ucsd.edu "cat WhereAmI.java`
 
-![](optimizing-3.png)
+![](lab-report-1-week-2/optimizing-3.png)
