@@ -1,10 +1,10 @@
-# [Lab Report 3 - Week 6](https://dklopstein.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+# [Lab Report 3 - Week 6](https://dklopstein.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
 ## Streamlining SSH Configuration
 
 ![](lab-report-3-week-6/config.png)
 
-<sup><sub>*config file found in ~/.ssh folder*
+<sup><sup>*config file found in ~/.ssh folder*
 
 The config file enables the user to connect to the server without much difficulty. The alias I chose was `ieng6`, similar to the host name. I edited the config file in [VScode](https://code.visualstudio.com/). To `ssh` I simply type:
 
@@ -32,19 +32,21 @@ Public Key on GitHub
 
 ![](lab-report-3-week-6/github-key.png)
 
-Public and Private Keys on Account
+Public and Private Keys on User Account
 
 ![](lab-report-3-week-6/account-keys.png)
+
+<sup><sup> *id_ed25519.pub and id_ed25519*
 
 By adding your public key on your user account to your GitHub account, you'll be able to commit and push changes to your repository. To make this possible, I typed:
 
 `git remote set-url origin git@github.com:<github account name>/<repository name>.git`
 
-<sup><sub>*This changes the remote URL from HTTPS to SSH*
+<sup><sup>*This changes the remote URL from HTTPS to SSH*
 
 ![](lab-report-3-week-6/remote-commit.png)
 
-<sub>*[Link To Commit](https://github.com/dklopstein/markdown-parser/commit/072bf47cb6775c45df2289657ad35a751c046044)*
+<sup><sup>*[Link To Commit](https://github.com/dklopstein/markdown-parser/commit/072bf47cb6775c45df2289657ad35a751c046044)*
 
 In this case, I typed:
 
