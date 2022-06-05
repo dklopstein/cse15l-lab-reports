@@ -50,7 +50,7 @@ The provided implementation doesn't check for escaped brackets or parenthesis. F
 
 ---
 
-### **[22.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/22.md)**
+### **[22.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/22.md?plain=1)**
 
 **Expected:**
 
